@@ -1,0 +1,34 @@
+
+body{
+    background-color : rgba(0,0,0,0.7);
+    font-size:3rem;
+    color:#fff;
+}
+.float-l{
+    float:left;
+}
+.float-r{
+    float: right;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix{
+    zoom:1;
+}
+.margin-auto{
+    margin: 0 auto;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
